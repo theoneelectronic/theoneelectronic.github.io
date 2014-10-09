@@ -29,14 +29,14 @@
   box-shadow: 0 1px 2px #e6e6e6;
 }
 .navbar-brand {
-  color: #35ac19;
+  color: #55c255;
   font-size: 1.6em;
   font-family: 'Lato', sans-serif;
   /* background: url('../img/logo.png') no-repeat 0% 50%;
   padding-left:40px; */
 }
 .navbar-brand:hover {
-  color: #277f13;
+  color: #3ca83c;
   /* background-image: url('../img/logo-hover.png'); */
 }
 .navbar-brand #first {
@@ -97,7 +97,7 @@
   background: url('../img/gram-icon-red-small.svg') no-repeat;
 }
 .navbar-toggle {
-  background-color: #35ac19;
+  background-color: #55c255;
   border-radius: 0;
 }
 .navbar-toggle .icon-bar {
@@ -153,13 +153,13 @@ body {
   font-size: 1.8em;
 }
 .grey .message span {
-  color: #35ac19;
+  color: #55c255;
   font-size: 2em;
 }
 .red {
-  background-color: #35ac19;
+  background-color: #55c255;
   color: #ffffff;
-  border-bottom: 1px solid #277f13;
+  border-bottom: 1px solid #3ca83c;
 }
 .red h3 {
   font-weight: 700;
@@ -173,14 +173,14 @@ body {
 }
 @media (min-width: 992px) {
   .red-left {
-    border-right: 1px solid #277f13;
+    border-right: 1px solid #3ca83c;
   }
 }
 .red-block {
   padding: 50px;
 }
 footer {
-  background-color: #277f13;
+  background-color: #3ca83c;
   padding: 25px 50px;
   color: #ffffff;
 }
@@ -198,7 +198,7 @@ footer {
   font-size: 1.1em;
 }
 .contact span {
-  color: #35ac19;
+  color: #55c255;
   text-decoration: none;
 }
 .send {
