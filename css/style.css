@@ -49,52 +49,37 @@
   margin: 5px;
 }
 .icon-menu li .plus-link {
-  background: url('../img/plus-red.png') no-repeat;
+  background: url('../img/plus-icon-green.svg') no-repeat;
   padding: 20px;
   transition: all 0.2s linear;
 }
 .icon-menu li .plus-link:hover {
-  background: url('../img/plus-red-dark.png') no-repeat;
+  background: url('../img/plus-icon-green-dark.svg') no-repeat;
 }
 .icon-menu li .github-link {
-  background: url('../img/hub-red.png') no-repeat;
+  background: url('../img/hub-icon-green.svg') no-repeat;
   padding: 20px;
   transition: all 0.2s linear;
 }
 .icon-menu li .github-link:hover {
-  background: url('../img/hub-red-dark.png') no-repeat;
-}
-.icon-menu li .instagram-link {
-  background: url('../img/gram-icon-red.svg') no-repeat;
-  padding: 20px;
-  transition: all 0.2s linear;
-}
-.icon-menu li .instagram-link:hover {
-  background: url('../img/gram-icon-red-dark.svg') no-repeat;
+  background: url('../img/hub-icon-green-dark.svg') no-repeat;
 }
 .icon-menu-small li {
   margin: 10px 5px;
 }
 .icon-menu-small li .plus-link {
-  background: url('../img/plus-small.png') no-repeat;
+  background: url('../img/plus-icon-green-small.svg') no-repeat;
   padding: 15px;
 }
 .icon-menu-small li .plus-link:hover {
-  background: url('../img/plus-small-dark.png') no-repeat;
+  background: url('../img/plus-icon-green-dark-small.svg') no-repeat;
 }
 .icon-menu-small li .github-link {
-  background: url('../img/hub-small.png') no-repeat;
+  background: url('../img/hub-icon-green-small.svg') no-repeat;
   padding: 15px;
 }
 .icon-menu-small li .github-link:hover {
-  background: url('../img/hub-small-dark.png') no-repeat;
-}
-.icon-menu-small li .instagram-link {
-  background: url('../img/gram-icon-red-small.svg') no-repeat;
-  padding: 15px;
-}
-.icon-menu-small li .instagram-link:hover {
-  background: url('../img/gram-icon-red-small.svg') no-repeat;
+  background: url('../img/hub-icon-green-dark-small.svg') no-repeat;
 }
 .navbar-toggle {
   background-color: #35ac19;
@@ -115,21 +100,6 @@ body {
 }
 #main {
   padding-top: 107px;
-}
-.element {
-  padding: 20px;
-  text-align: center;
-}
-.element .text {
-  text-align: left;
-}
-.element .col-md-pull-6 {
-  text-align: right;
-}
-.element:not(:last-child)::after {
-  content: "...";
-  color: #f1f1f1;
-  font-size: 3em;
 }
 .grey {
   background-color: #f1f1f1;
@@ -178,6 +148,9 @@ body {
 }
 .red-block {
   padding: 50px;
+}
+.icons img {
+  margin-right: 5px;
 }
 footer {
   background-color: #277f13;
